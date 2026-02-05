@@ -42,4 +42,14 @@ React Server Components and Routing contd.
 
     - As we get into routing, you'll see practical examples of both types
     - Work with server components that wait for certain operations to complete before rendering content
-    - Use client components to take advantage of hooks from the routing module             
+    - Use client components to take advantage of hooks from the routing module   
+
+Routing:
+    - Next.js has a file-system based routing system
+    - URLs you can access in your browser are determined by how you organize your files and folders in your code  
+
+Routing conventions:
+    1. All routes must live inside the app folder
+    2. Route files must be named either page.js or page.tsx
+    3. Each folder represents a segment of the URL path
+    - When these conventions are followed, the file automatically becomes available as a route.                
